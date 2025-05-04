@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Guard</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <!-- Replace 'logo.png' with the path to your logo image -->
+            <img src="images/AirGuardLogo.png" id="logo" alt="AirGuardLogo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.php">Inicio</a></li>
+                <li><a href="#login.html">Iniciar sesion</a></li>
+                <li><a href="#about.html">Acerca de Air Guard</a></li>
+                <li><a href="#features">Caracteristicas</a></li>
+                <li><a href="#contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="carousel-container">
+            <div class="carousel-slide active" style="background-image: url('images/slide1.jpg');"></div>
+            <div class="carousel-slide" style="background-image: url('images/slide2.jpg');"></div>
+            <div class="carousel-slide" style="background-image: url('images/slide3.jpg');"></div>
+    
+            <div class="hero-text">
+                <h1>¿Qué es Air Guard?</h1>
+                <p>Monitoreo inteligente con drones autónomos</p>
+                <a href="#" class="button">Comenzar</a>
+                <a href="#" class="button">Ver demostración</a>
+            </div>
+    
+            <div class="carousel-buttons">
+                <button class="carousel-button" onclick="changeSlide(-1)">&#10094;</button>
+                <button class="carousel-button" onclick="changeSlide(1)">&#10095;</button>
+            </div>
+        </section>
+
+            <!-- Sección Acerca de -->
+        <section id="about">
+            <h2>Acerca de Air Guard</h2>
+            <p>Air Guard es un sistema de monitoreo autónomo por drones con inteligencia artificial, diseñado para sectores como agricultura, seguridad y gestión ambiental. Ofrece visión en tiempo real, análisis predictivo y autonomía total sin necesidad de operadores humanos.</p>
+        </section>
+
+
+        <section id="features">
+            <h2>Características</h2>
+            <ul>
+                <li>Despliegue automatizado y vuelos autónomos</li>
+                <li>Análisis en tiempo real con IA</li>
+                <li>Control centralizado</li>
+                <li>Interfaz web de administración y reportes con herramientas de analitica</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Air Guard. Todos los derechos reservados.</p>
+    </footer>
+    <script src="js/slide.js"></script>
+</body>
+</html>
